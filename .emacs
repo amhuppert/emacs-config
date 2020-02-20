@@ -6,6 +6,7 @@
 
 (global-set-key (kbd "C-c \S-I") 'ivy-imenu-anywhere)
 (global-set-key (kbd "C-c i") 'imenu)
+(global-set-key (kbd "C-S-s") 'isearch-forward-symbol-at-point)
 
 ;; Ivy completion framework
 (ivy-mode 1)
