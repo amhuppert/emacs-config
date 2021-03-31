@@ -1,0 +1,4 @@
+# key: ac
+# name: redux-action
+# --
+| { type: typeof ${1:ACTION_TYPE} }$0

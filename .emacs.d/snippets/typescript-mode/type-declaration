@@ -1,0 +1,5 @@
+# -*- mode: typescript-mode -*-
+# name: type-declaration
+# key: t
+# --
+type $1 = $2;$0

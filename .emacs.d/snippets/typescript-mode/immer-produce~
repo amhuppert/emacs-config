@@ -1,0 +1,6 @@
+# key: pr
+# name: immer-produce
+# --
+const ${1:newModel} = produce(${2:prevModel}, draft => {
+      ${3:draft.}$0
+})

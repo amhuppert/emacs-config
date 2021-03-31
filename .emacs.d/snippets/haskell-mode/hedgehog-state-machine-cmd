@@ -1,0 +1,16 @@
+# key: hcmd
+# name: hedgehog-state-machine-cmd
+# expand-env: ((yas-indent-line 'fixed))
+# --
+${1:cCommmand} :: forall g m. (MonadGen g, MonadTest m, MonadIO m) => Command g m ${2:Model}
+$1 =
+  Command
+    { commandGen = gen
+    , commandExecute = exe
+    , commandCallbacks = callbacks
+    }
+  where
+    gen model = $0
+    exe input = _
+    callbacks =
+      []

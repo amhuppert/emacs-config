@@ -1,0 +1,5 @@
+# key: ac
+# name: redux-action
+# expand-env: ((yas-indent-line 'fixed))
+# --
+$>| { type: typeof ${1:ACTION_TYPE} }$0

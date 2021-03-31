@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: reducer-case
+# key: rc
+# --
+if (action.type === ${1:ACTION_TYPE}) {
+   const ${1:newModel} = produce(${2:prevModel}, draft => {
+         ${3:draft.}$0
+   })
+   return loop($1, Cmd.none)
+}

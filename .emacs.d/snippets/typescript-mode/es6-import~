@@ -1,0 +1,5 @@
+# -*- mode: typescript-mode -*-
+# name: es6-import
+# key: i
+# --
+import { $2 } from '$1';$0

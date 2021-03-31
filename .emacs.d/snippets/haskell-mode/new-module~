@@ -1,0 +1,9 @@
+# key: nmod
+# name: new-module
+# --
+module `(haskell-guess-module-name)`
+       ( ${1:topLevelExport}
+       ) where
+
+$1 :: ${2:a}
+$1 $0

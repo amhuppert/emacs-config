@@ -1,0 +1,5 @@
+# -*- mode: typescript-mode -*-
+# name: redux-action-type-const
+# key: ac
+# --
+const ${1:ACTION_TYPE} = '$1';$0

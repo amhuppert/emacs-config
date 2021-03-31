@@ -1,0 +1,4 @@
+# key: at
+# name: redux-action-type-const
+# --
+const ${1:ACTION_TYPE} = '$1';$0

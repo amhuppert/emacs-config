@@ -1,0 +1,6 @@
+# key: in
+# name: interface
+# --
+interface $1 {
+$>${2:propName}: ${3: type};$0
+}

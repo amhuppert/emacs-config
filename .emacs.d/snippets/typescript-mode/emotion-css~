@@ -1,0 +1,7 @@
+# -*- mode: typescript-mode -*-
+# name: emotion-css
+# key: css
+# --
+css`
+`(repeat-string (current-indentation) " ")`$0
+`

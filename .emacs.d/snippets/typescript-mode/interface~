@@ -1,0 +1,7 @@
+# -*- mode: typescript-mode -*-
+# name: interface
+# key: in
+# --
+interface $1 {
+          $2: $3;$0
+}

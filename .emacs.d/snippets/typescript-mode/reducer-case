@@ -1,0 +1,6 @@
+# key: rc
+# name: reducer-case
+# --
+if (action.type === ${1:ACTION_TYPE}) {
+   $0
+}

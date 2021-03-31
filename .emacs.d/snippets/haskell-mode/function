@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: function
+# key: f
+# expand-env: ((yas-indent-line 'fixed))
+# --
+${1:functionName} :: ${2:a -> a}
+$1$3 = $0

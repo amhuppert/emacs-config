@@ -1,0 +1,8 @@
+# mode: typescript-mode
+# key: css
+# name: emotion-css
+# --
+css\`
+`(progn (yas-set-local 'yas--first-line-indentation (prev-line-indentation))
+        (repeat-string (+ yas--first-line-indentation 2) " "))`${1:prop}: ${2:value};$0
+`(repeat-string yas--first-line-indentation " ")`\`

@@ -1,0 +1,6 @@
+# key: newt
+# mode: Haskell
+# name: newtype
+# --
+newtype ${1:Type} = $1 { un$1 :: $2 }
+$>deriving (Show, Eq, Ord, Generic)$0

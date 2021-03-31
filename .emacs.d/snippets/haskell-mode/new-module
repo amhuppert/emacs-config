@@ -1,0 +1,8 @@
+# key: nmod
+# name: new-module
+# --
+module `(haskell-guess-module-name)`
+       (
+       ) where
+
+$0

@@ -1,0 +1,5 @@
+# -*- mode: haskell -*-
+# name: Language Pragma
+# key: lang
+# --
+{-# LANGUAGE $1 #-}$0

@@ -1,0 +1,7 @@
+# key: ipr
+# name: immer-produce-reducer
+# --
+const ${1:newModel} = produce(${2:prevModel}, draft => {
+      ${3:draft.}$0
+})
+return loop($1, Cmd.none)

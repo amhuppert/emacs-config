@@ -1,0 +1,17 @@
+# -*- mode: sql-mode -*-
+# name: create-table-with-update-trigger
+# key: ct
+# --
+CREATE TABLE IF NOT EXISTS $1
+  ( id        serial    PRIMARY KEY
+  , created   timestamp NOT NULL DEFAULT now()
+  , updated   timestamp NOT NULL DEFAULT now()
+  );
+
+DROP TRIGGER IF EXISTS $1_updated ON $1;
+
+CREATE TRIGGER $1_updated
+  BEFORE UPDATE ON $1
+  FOR EACH ROW
+  EXECUTE PROCEDURE moddatetime (updated);
+$0

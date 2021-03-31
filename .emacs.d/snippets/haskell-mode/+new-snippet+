@@ -1,0 +1,5 @@
+# -*- mode: haskell -*-
+# name: No Warn Deprecations Pragma
+# key: nwd
+# --
+{-# OPTIONS_GHC -Wno-deprecations #-}$0

@@ -1,0 +1,7 @@
+*
+!.gitignore
+!.emacs
+!.emacs.d
+!.emacs.d/settings.org
+!.emacs.d/snippets
+!.emacs.d/snippets/**/*
