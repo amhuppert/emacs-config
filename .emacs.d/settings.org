@@ -142,12 +142,13 @@
 ** LSP
 #+BEGIN_SRC emacs-lisp
   (lsp-treemacs-sync-mode 1)
-  (define-key lsp-mode-map (kbd "C-. e") 'lsp-treemacs-errors-list)
-  (define-key lsp-mode-map (kbd "C-. s") 'lsp-treemacs-symbols)
-  (define-key lsp-mode-map (kbd "C-. a") 'lsp-ui-sideline-apply-code-actions)
+  (define-key lsp-mode-map (kbd "C-; e") 'lsp-treemacs-errors-list)
+  (define-key lsp-mode-map (kbd "C-; t") 'lsp-treemacs-symbols)
   (define-key lsp-mode-map (kbd "C-; SPC") 'lsp-execute-code-action)
   (define-key flycheck-mode-map (kbd "C-; n") 'flycheck-next-error)
   (define-key flycheck-mode-map (kbd "C-; p") 'flycheck-previous-error)
+  (define-key lsp-mode-map (kbd "C-; l") 'lsp-find-references)
+  (define-key lsp-mode-map (kbd "C-; s") 'lsp-ivy-workspace-symbol)
 #+end_SRC
 ** expand-region
 #+BEGIN_SRC emacs-lisp
