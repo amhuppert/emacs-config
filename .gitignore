@@ -1,8 +1,6 @@
 *
 !.gitignore
-!.emacs
+!.spacemacs
 !.emacs.d
-!.emacs.d/custom-file.el
-!.emacs.d/settings.org
-!.emacs.d/snippets
-!.emacs.d/snippets/**/*
+!.emacs.d/private/
+!.emacs.d/private/**/*
